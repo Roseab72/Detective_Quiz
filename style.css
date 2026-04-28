@@ -3,40 +3,52 @@ body {
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
   margin: 2em;
   text-align: center;
-}
-body {
-  background-color: #feecec;
+  background-color: #edd7bb;
 }
 /* STYLE TEXT */
 h1 {
-  font-style: italic;
+  font-family: "Special Elite", cursive;
   color: #b43028;
   font-size: 60px;
   text-align: center;
 }
 
 h2 {
+  font-family: "Open Sans", sans-serif;
   margin-top: 2em;
   text-align: center;
 }
 
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
 h3 {
+  font-family: "Open Sans", sans-serif;
   text-align: center;
   margin-top: 2em;
 }
 
 h4 {
+  font-family: "Special Elite", cursive;
   text-align: center;
   font-size: 40px;
   color: #b43028;
 }
 h5 {
+  font-family: "Open Sans", sans-serif;
   text-align: center;
   color: #b43028;
 }
 ul {
 list-style-type: none; /* Removes bullet points */
 text-align: center;
+}
+
+/* STYLE BUTTON */
+button { 
+  margin-top: 5px;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* STYLE FLEX CONTAINER */
@@ -52,7 +64,7 @@ text-align: center;
   
 /* STYLE FLEX ITEM */
 .answer-choice {
-  margin: 5px;
+  margin: 0px;
 }
 
 /* STYLE IMAGES */
@@ -62,14 +74,11 @@ text-align: center;
   text-align: left;
 }
 .homeimg {
-  width: 1200px;
-  height: auto; 
+  width: 500px;
+  height: auto;
+  justify-content: center;
 }
 .resultimg {
   width: auto;
-  height: 30em;
-}
-/* STYLE BUTTON */
-button { 
-  margin-top: 5px;
+  height: 25em;
 }
