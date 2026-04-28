@@ -162,8 +162,9 @@ function updateResult() {
   if (amGeniusPercent > hardBoiledPercent && amGeniusPercent > brillEccPercent && amGeniusPercent > postModPercent) {
     resultHTML = `
       <h4>You are The Amateur Genius!</h4>
-      <img src="assets/cap.webp" class= "resultimg" alt="Captain America">
-      <p>Captain America is the leader with a strong moral compass and an unyielding sense of duty, always putting others before yourself. You stand for justice and always fight for what's right!</p>
+      <img src="assets/genius.jpg" class= "resultimg" alt="">
+      <p>Time Period: 1841-1890s</p>
+      <p>You're intelligent, calculated, and you know it. Your mind operates several steps ahead of everyone else in the room, and you're always right. Like detectives C. Auguste Dupin and Sherlock Holmes, you treat mystery as a challenge, one only you are equipped to solve.</p>
     `;
     console.log("You are " + amGeniusPercent + "% The Amateur Genius");
     console.log("You are " + brillEccPercent + "% The Brilliant Eccentric");
@@ -173,8 +174,9 @@ function updateResult() {
   else if (hardBoiledPercent > amGeniusPercent && hardBoiledPercent > brillEccPercent && hardBoiledPercent > postModPercent) {
     resultHTML = `
       <h4>You are The Hard-Boiled PI!</h4>
-      <img src="assets/iron_man.webp" class="resultimg" alt="Iron Man">
-      <p>Iron Man is a brilliant inventor and a quick thinker, making you a natural problem-solver. You're charismatic, confident, and always ready to save the day with your genius!</p>
+      <img src="assets/noir.jpg" class="resultimg" alt="">
+      <p>Time Period: 1930-1950s</p>
+      <p>You're cynical and stubborn, but you know how the world works. You operate by your own personal code, and that is the only thing you're loyal to. You don't trust institutions, and you know how to navigate through the corruption. You relate to detectives like Sam Spade and Philip Marlowe, who didn't always have the cleanest methods, but delivered nonetheless.</p>
     `;
     console.log("You are " + amGeniusPercent + "% The Amateur Genius");
     console.log("You are " + brillEccPercent + "% The Brilliant Eccentric");
@@ -184,8 +186,9 @@ function updateResult() {
   else if (brillEccPercent > amGeniusPercent && brillEccPercent > hardBoiledPercent && brillEccPercent > postModPercent) {
     resultHTML = `
     <h4>You are The Brilliant Eccentric!</h4>
-    <img src="assets/thor.jpg" class="resultimg" alt="Thor">
-    <p>A powerful warrior with a noble heart, you’re as fearless in battle as you are loyal to your friends. Your strength and determination inspire all.</p>
+    <img src="assets/golden.jpg" class="resultimg" alt="">
+    <p>Time Period: 1920-1940s</p>
+    <p>You are charismatic, egocentric, and highly intelligent. Like Hercule Poirot and Lord Peter Wimsey, you rely on deduction and your intution, while of course leaving room for wit and dramatics. Your methods are equally methodical and psychological, acknowledging the humanity in every mystery.
     `;
     console.log("You are " + amGeniusPercent + "% The Amateur Genius");
     console.log("You are " + brillEccPercent + "% The Brilliant Eccentric");
@@ -195,8 +198,9 @@ function updateResult() {
   else if (postModPercent > amGeniusPercent && postModPercent > brillEccPercent && postModPercent > hardBoiledPercent) {
     resultHTML = `
     <h4>You are The Unreliable Postmodernist!</h4>
-    <img src="assets/spider_man.webp" class="resultimg" alt="Spider-Man">
-    <p>Witty, resourceful, and full of heart, you thrive under pressure and never back down from a challenge. You balance responsibility with a sense of humor. No matter how tough life gets, you always rise to protect others, proving that anyone can be a hero with the right mindset.</p>
+    <img src="assets/postmodern.jpg" class="resultimg" alt="">
+    <p>Time Period: 1970-1990s </p>
+    <p> You are chaotic and unconventional, navigating a world where truth is an illusion. You rely on intution, feelings, and irrational methods that may only make sense to yourself. Like Quinn or Verbal Kint, your specific role in the story means nothing certain, as the truth is up to the reader. You don't prioritize clear or satisfying resolutions, but look deeper into the metaphysical. 
     `;
     console.log("You are " + amGeniusPercent + "% The Amateur Genius");
     console.log("You are " + brillEccPercent + "% The Brilliant Eccentric");
